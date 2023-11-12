@@ -26,4 +26,16 @@ void loop() {
     Serial.write(SerialBT.read());
   }
   delay(20);
+
+
+  // (blu.available()){
+  //       //x2.7x7.6x
+  //       Serial.print(message);
+  //       Serial.print("  ");
+  //       message = blu.readString();
+  //       message.trim();
+  //       linear = message.substring(1, 4).toFloat();
+  //       angular = message.substring(5, 8).toFloat();
+    
+  //   }
 }
